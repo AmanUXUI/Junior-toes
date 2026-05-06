@@ -333,7 +333,7 @@ const Hero = () => {
                 ease: "easeInOut",
               }
             }}
-            className="relative z-10 w-[85%] mx-auto"
+            className="relative z-10 w-[95%] md:w-[85%] mx-auto"
           >
             <img
               src="https://i.postimg.cc/HsbTnFpz/Cutout.png"
