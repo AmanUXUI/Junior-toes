@@ -400,7 +400,7 @@ const SlidingRibbon = () => {
     <div className="bg-[#111111] text-white py-6 overflow-hidden italic font-black text-xl relative border-y border-white/5">
       <div className="flex animate-marquee whitespace-nowrap">
         {[...items, ...items, ...items, ...items, ...items, ...items].map((item, i) => (
-          <div key={i} className="flex items-center gap-6 px-16">
+          <div key={i} className="flex items-center gap-4 md:gap-6 px-8 md:px-16">
             <span className="text-[#FF7043]">{item.icon}</span>
             <span className="uppercase tracking-tighter">{item.text}</span>
             <span className="text-[#FF7043] font-black opacity-40">/</span>
